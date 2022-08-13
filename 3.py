@@ -1,3 +1,4 @@
+#to perform logical operation on string using user defined functions
 def count(St):
   c=0
   for i in St:
@@ -13,4 +14,10 @@ def count(St):
       else:
         c=c+1
     elif S+[i] in "0123456789"
-    d=d+
+    d=d+1
+    else:
+      s=s+1
+    return v,c,d,s
+def count2(St):
+  v=0
+  L=St.split()
